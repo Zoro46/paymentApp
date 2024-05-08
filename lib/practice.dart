@@ -4,6 +4,8 @@ import 'package:assignment_1/login_screen.dart';
 import 'package:assignment_1/settings.dart';
 import 'package:assignment_1/sign_up.dart';
 import 'package:assignment_1/profile_page.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 //
 class Practice_Page extends StatefulWidget {
   const Practice_Page({super.key});
@@ -39,24 +41,47 @@ class _Practice_PageState extends State<Practice_Page> {
   ];
   @override
   Widget build(BuildContext context) {
-    return  DefaultTabController(
-
-      length: TabBarContent.length,
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.lightBlueAccent,
-          bottom: TabBar(
-            dividerColor: Colors.transparent,
-            tabs: TabBarContent,
+    return Scaffold(
+        // appBar: AppBar(
+        //   backgroundColor: Colors.lightBlueAccent,
+        //   bottom: TabBar(
+        //     dividerColor: Colors.transparent,
+        //     tabs: TabBarContent,
+        //   ),
+        // ),
+        body: Padding(
+          padding: const EdgeInsets.fromLTRB(8,50,0,0),
+          child: Container(
+            child: Column(
+              children: [
+                Text("Flutter demo", style: GoogleFonts.italiana(color: Colors.red, fontSize: 20),),
+                Text("Flutter demo", style: GoogleFonts.alef(color: Colors.red, fontSize: 20),),
+                Text("Flutter demo", style: GoogleFonts.sail(color: Colors.red, fontSize: 20),),
+              ],
+            ),
           ),
-        ), 
-        body: TabBarView(
-          children: [
-            Text("${maplist[0].name}"),
-            Text("${maplist[0].name}"),
-            Text("${maplist[0].name}"),
+        )
+
+       /* DataTable(
+          columns: [
+            DataColumn(label: Text("Name")),
+            DataColumn(label: Text("Age")),
+            DataColumn(label: Text("Course")),
+
           ],
-        ),
+          rows: [
+            DataRow(cells: [
+              DataCell(Text("Nandini")),
+              DataCell(Text("20")),
+              DataCell(Text("Flutter")),
+            ]),
+            DataRow(cells: [
+              DataCell(Text("Supriya")),
+              DataCell(Text("20")),
+              DataCell(Text("Flutter")),
+            ]),
+          ],
+        )*/
 
       
 
@@ -83,7 +108,7 @@ class _Practice_PageState extends State<Practice_Page> {
         //   selectedItemColor: Colors.redAccent,
         // ),
 
-    ));
+    );
 
   }
 }

@@ -1,4 +1,6 @@
+import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class Profile_page extends StatefulWidget {
   const Profile_page({super.key});
@@ -150,10 +152,7 @@ class _Home_PageState extends State<Profile_page> {
                                 child: Card(
                                   color: Color(0xfffbf3b5),
                                   elevation: 0.0,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(20.0),
-                                    child: Image.asset('assets/images/profile_page_images/wallet.png', fit: BoxFit.cover,),
-                                  ),
+                                  child: Icon(PhosphorIcons.wallet(), color: Color(0xfff0d131), size: 40.0,),
                                 ),
                               ),
                             ),
@@ -185,10 +184,7 @@ class _Home_PageState extends State<Profile_page> {
                                 child: Card(
                                   color: Color(0xffbdc5d8),
                                   elevation: 0.0,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(20.0),
-                                    child: Image.asset('assets/images/profile_page_images/Cashback_image.png', fit: BoxFit.cover,),
-                                  ),
+                                  child: Icon(FeatherIcons.dollarSign, color: Colors.white, size: 35.0,),
                                 ),
                               ),
                             ),
@@ -368,7 +364,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/qr_image.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(PhosphorIcons.qrCode(), color: Color(0xff1a3874), size: 28.0,),
                                       radius: 25.0,
                                     ),
                                   ),
@@ -391,7 +387,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/home_image.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(FeatherIcons.home, color: Color(0xff1a3874),),
                                       radius: 25.0,
                                     ),
                                   ),
@@ -414,7 +410,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/lock_10777080.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(FeatherIcons.lock, color: Color(0xff1a3874),),
                                       radius: 25.0,
                                     ),
                                   ),
@@ -437,7 +433,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/scan_image.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(FeatherIcons.maximize, color: Color(0xff1a3874),),
                                       radius: 25.0,
                                     ),
                                   ),
@@ -460,7 +456,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/bell_image.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(FeatherIcons.bell, color: Color(0xff1a3874),),
                                       radius: 25.0,
                                     ),
                                   ),
@@ -529,7 +525,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/dollar_image.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(FeatherIcons.dollarSign, color: Color(0xff1a3874),),
                                       radius: 25.0,
                                     ),
                                   ),
@@ -552,7 +548,7 @@ class _Home_PageState extends State<Profile_page> {
                                     padding: const EdgeInsets.fromLTRB(0,14,0,0),
                                     child: CircleAvatar(
                                       backgroundColor: Color(0xfff1efef),
-                                      child: Image.asset('assets/images/profile_page_images/do-not-enter_image.png',fit: BoxFit.cover, height: 20.0, width: 20.0,),
+                                      child: Icon(FeatherIcons.slash, color: Color(0xff1a3874),),
                                       radius: 25.0,
                                     ),
                                   ),

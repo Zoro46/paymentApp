@@ -1,6 +1,7 @@
 import 'package:assignment_1/Dashboard.dart';
 import 'package:assignment_1/home_page.dart';
 import 'package:assignment_1/login_screen.dart';
+import 'package:assignment_1/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'package:assignment_1/practice.dart';
 import 'package:assignment_1/sign_up.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Practice_Page(),
+      home: Profile_page(),
     );
   }
 }

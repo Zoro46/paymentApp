@@ -36,6 +36,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   shared_preferences: ^2.2.3
+  feather_icons: ^1.2.0
+  google_fonts: 6.1.0
+  phosphor_flutter: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -74,8 +77,6 @@ flutter:
     - assets/images/profile_page_images/anya.jpeg
     - assets/images/profile_page_images/bell_image.png
     - assets/images/profile_page_images/Cashback_image.png
-    - assets/images/profile_page_images/do-not-enter_image.png
-    - assets/images/profile_page_images/dollar_image.png
     - assets/images/profile_page_images/home_image.png
     - assets/images/profile_page_images/invoice_image.png
     - assets/images/profile_page_images/lock_10777080.png
