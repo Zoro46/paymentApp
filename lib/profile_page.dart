@@ -98,7 +98,7 @@ class _Home_PageState extends State<Profile_page> {
                                   children: [
                                     Padding(
                                       padding: const EdgeInsets.only(left: 10.0,top: 2.0),
-                                      child: Text("Victor Hamilton", style: TextStyle(fontWeight: FontWeight.w600, fontSize: 21.0,),),
+                                      child: Text("Nandini Mittal", style: TextStyle(fontWeight: FontWeight.w600, fontSize: 21.0,),),
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.only(left: 10.0),
