@@ -77,7 +77,7 @@ class Login_page extends StatelessWidget {
                               return "There should a password";
                             }
                             if(value.length<6){
-                              return "Password should be of minimum 9 characters";
+                              return "Password should be of minimum 6 characters";
                             }
                             return null;
                           },
