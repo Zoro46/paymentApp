@@ -72,18 +72,11 @@ flutter:
     - assets/SignUpImage.jpg
     - assets/signUp.jpg
     - assets/backgroung_image.jpeg
-    - assets/luffy.jpeg
     - assets/sakura_tree.jpeg
     - assets/images/profile_page_images/anya.jpeg
-    - assets/images/profile_page_images/bell_image.png
-    - assets/images/profile_page_images/Cashback_image.png
-    - assets/images/profile_page_images/home_image.png
     - assets/images/profile_page_images/invoice_image.png
-    - assets/images/profile_page_images/lock_10777080.png
     - assets/images/profile_page_images/mastercard_icon.png
-    - assets/images/profile_page_images/qr_image.png
-    - assets/images/profile_page_images/scan_image.png
-    - assets/images/profile_page_images/wallet.png
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
